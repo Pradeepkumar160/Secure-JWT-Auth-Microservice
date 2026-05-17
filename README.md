@@ -100,15 +100,16 @@ Swagger UI available at: `http://localhost:4000/api-docs`
 - **Email Verification** — Required before login
 
 ## 📁 Project Structure
+
 secure-auth-microservice/
-├── client/          # React frontend
+├── client/                                                      # React frontend
 ├── server/
-│   ├── _core/       # Server setup, tRPC, Vite
-│   ├── middlewares/ # Rate limiting, security
-│   ├── routers/     # Auth & user routes
-│   └── services/    # Auth & email services
-├── shared/          # Shared types & constants
-├── .env.example     # Environment template
+│   ├── _core/                                                   # Server setup, tRPC, Vite
+│   ├── middlewares/                                             # Rate limiting, security
+│   ├── routers/                                                 # Auth & user routes
+│   └── services/                                                # Auth & email services
+├── shared/                                                      # Shared types & constants
+├── .env.example                                                 # Environment template
 └── README.md
 
 ## 🤝 Contributing
